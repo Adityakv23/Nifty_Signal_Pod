@@ -1,0 +1,97 @@
+{
+  "thresholds": {
+    "accuracy_overall_pass": 0.52,
+    "accuracy_overall_fail": 0.48,
+    "accuracy_block_worst_pass": 0.45,
+    "accuracy_block_worst_fail": 0.4,
+    "schema_pass_rate_pass": 1.0,
+    "schema_pass_rate_fail": 0.99,
+    "conviction_mean_min": 0.45,
+    "conviction_mean_max": 0.75,
+    "suppress_rate_pass": 0.35,
+    "suppress_rate_fail": 0.5,
+    "downgrade_rate_pass": 0.4,
+    "downgrade_rate_fail": 0.55,
+    "parse_fail_rate_pass": 0.05,
+    "parse_fail_rate_fail": 0.1,
+    "high_vix_accuracy_pass": 0.45,
+    "high_vix_accuracy_fail": 0.4,
+    "high_vix_threshold": 20.0
+  },
+  "aggregate": {
+    "schema_pass_rate": 0.0
+  },
+  "blocks": [
+    {
+      "block": 1,
+      "dates": [
+        "2024-11-12",
+        "2024-11-13",
+        "2024-11-14",
+        "2024-11-15",
+        "2024-11-18"
+      ]
+    },
+    {
+      "block": 2,
+      "dates": [
+        "2024-11-19",
+        "2024-11-20",
+        "2024-11-21",
+        "2024-11-22",
+        "2024-11-25"
+      ]
+    },
+    {
+      "block": 3,
+      "dates": [
+        "2024-11-26",
+        "2024-11-27",
+        "2024-11-28",
+        "2024-11-29",
+        "2024-12-02"
+      ]
+    },
+    {
+      "block": 4,
+      "dates": [
+        "2024-12-03",
+        "2024-12-04",
+        "2024-12-05",
+        "2024-12-06",
+        "2024-12-09"
+      ]
+    },
+    {
+      "block": 5,
+      "dates": [
+        "2024-12-10",
+        "2024-12-11",
+        "2024-12-12",
+        "2024-12-13",
+        "2024-12-16"
+      ]
+    },
+    {
+      "block": 6,
+      "dates": [
+        "2024-12-17",
+        "2024-12-18",
+        "2024-12-19",
+        "2024-12-20",
+        "2024-12-23"
+      ]
+    }
+  ],
+  "reliability": {},
+  "verdicts": {
+    "directional_accuracy": "N/A",
+    "schema_pass_rate": "FAIL",
+    "suppress_rate": "N/A",
+    "parse_fail_rate": "N/A",
+    "high_vix_accuracy": "N/A",
+    "conviction_mean": "N/A",
+    "worst_block_accuracy": "FAIL",
+    "OVERALL": "FAIL"
+  }
+}

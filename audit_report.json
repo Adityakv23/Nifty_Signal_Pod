@@ -1,0 +1,46 @@
+{
+  "raw_total": 300,
+  "clean_total": 255,
+  "dropped_total": 45,
+  "bad_index_range": "47-91",
+  "finding_types": {
+    "conviction_is_string": 45
+  },
+  "string_conviction_values": {
+    "0.8 (high)": 6,
+    "high": 6,
+    "moderate": 6,
+    "low": 6,
+    "high confidence": 6,
+    "moderate confidence": 5,
+    "strong": 5,
+    "weak": 5
+  },
+  "drop_decision": "All 45 examples with string conviction dropped. Remapping rejected: arbitrary mapping not grounded in data.",
+  "clean_stats": {
+    "direction_dist": {
+      "PE": 68,
+      "NEUTRAL": 113,
+      "CE": 74
+    },
+    "horizon_dist": {
+      "intraday": 139,
+      "next_session": 116
+    },
+    "conviction_min": 0.31,
+    "conviction_max": 0.79,
+    "conviction_mean": 0.4878,
+    "conviction_stdev": 0.098,
+    "adx_min": 23.66,
+    "adx_max": 30.39,
+    "adx_mean": 27.21,
+    "vix_min": 12.67,
+    "vix_max": 15.37,
+    "vix_mean": 13.75,
+    "adx_below_20_count": 0
+  },
+  "coverage_gaps": [
+    "ADX < 20: ZERO training examples. Orchestrator suppresses at ADX<20 but model never trained near this boundary.",
+    "VIX > 15.4: ZERO training examples. Eval window has VIX up to 30.95."
+  ]
+}

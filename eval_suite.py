@@ -3,7 +3,6 @@ eval_suite.py
 =============
 Walk-forward evaluation suite for the NIFTY signal pod.
 
-COMMIT THIS FILE TO THE REPOSITORY BEFORE THE FIRST KAGGLE TRAINING RUN.
 Section 1 thresholds are hard-coded below and must not be changed after training.
 
 Evaluation design:
