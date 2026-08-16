@@ -1,4 +1,4 @@
-# NIFTY Signal Pod — AI-SLM Intern Screening Submission
+# NIFTY Signal Pod — Fine-Tuned SLM Trading Signal Generator with Safety Orchestration
 
 **Track:** AI-SLM  
 **Kaggle notebook URL:** https://www.kaggle.com/code/adityakumar2907/notebook4b2fc22bae/edit
