@@ -1,8 +1,3 @@
-"""
-retrieve.py  —  provided by Quant Singularity
-Do not modify this file.
-Place it in the same directory as rag_corpus.jsonl.
-"""
 import json
 import numpy as np
 from pathlib import Path
